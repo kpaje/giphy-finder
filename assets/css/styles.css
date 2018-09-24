@@ -1,9 +1,15 @@
 body {
     font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: black;
+}
+
+.container {
+    color: white;
 }
 
 h1 {
     background-color: #6CD233;
+    color: black;
     text-align: center;
     font-weight: 600;
 }

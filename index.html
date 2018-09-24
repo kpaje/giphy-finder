@@ -8,9 +8,7 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
         <link rel="stylesheet" href="./assets/css/styles.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -19,7 +17,15 @@
                 EMIN&#398M LOVES YOU!?
                 <img id='eminem' src="./assets/images/eminem.png">
             </h1>
-    
+            
+            <form class="form-inline float-right">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label id='input' class="sr-only">Not-Stan</label>
+                    <input type="text" class="form-control" placeholder="Not-Stan">
+                </div>
+                <button id='submit' class="btn btn-danger mb-2">Em Loves Who!?</button>
+            </form>
+            
             <button class="gifButton btn btn-danger mb-2" data-person="rihanna">
                 Rihanna
             </button>
@@ -33,13 +39,7 @@
                 Mariah Carey
             </button>
             <div id='newButton'></div>
-            <form class="form-inline float-right">
-                    <div class="form-group mx-sm-3 mb-2">
-                      <label id='input' class="sr-only">Not-Stan</label>
-                      <input type="text" class="form-control" placeholder="Not-Stan">
-                    </div>
-                    <button id='submit' class="btn btn-danger mb-2">Em Loves Who!?</button>
-                  </form>
+
     
             <div id="gifs"></div>
         </div>
@@ -48,6 +48,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script src="./assets/javascript/app.js"></script>
