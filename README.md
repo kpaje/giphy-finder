@@ -1,4 +1,5 @@
 # Giphy X Eminem
 
-https://kpaje.github.io/giphy-finder/
+https://kpaje.github.io/giphy-x-eminem/
+
 
