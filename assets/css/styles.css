@@ -22,3 +22,7 @@ h1 {
 .gifButton {
     margin: 3px;
 }
+
+#input {
+    height: 35px;
+}
